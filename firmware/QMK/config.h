@@ -1,0 +1,4 @@
+#define ENCODER_A_PINS { GP26 }
+#define ENCODER_B_PINS { GP27 }
+#define WS2812_DI_PIN { GP28 }
+#define RGBLIGHT_LIMIT_VAL 127
