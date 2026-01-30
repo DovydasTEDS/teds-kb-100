@@ -3,15 +3,15 @@
 A 100% ISO-105 Mechanical keyboard - custom PCB, custom case.
 It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
 
-![image](img\assembled_cad.png)
+![image](img/assembled_cad.png)
 
-![image](img\schematic.png)
+![image](img/schematic.png)
 
-![image](img\pcb.png)
+![image](img/pcb.png)
 
-![image](img\pcb_3d_front.png)
+![image](img/pcb_3d_front.png)
 
-![image](img\pcb_3d_back.png)
+![image](img/pcb_3d_back.png)
 
 ## Bill of Materials
   
