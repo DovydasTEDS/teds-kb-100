@@ -1,8 +1,9 @@
 ### TEDS KB 100  
 
-  IMPORTANT (For reviewer)
-  Case will be edited / tweaked, just don't want to resubmit. Will most likely be able to 3d print myself if Construct isn't too delayed. (have 38h already so printer is basically guaranteed)
-  Also a fully assembled .step with PCB cannot be included since Fusion just doesn't want to export it and crashes whenever I attempt to. A fusion archive has been included for that.
+  IMPORTANT (For reviewer)  
+  Case will be edited / tweaked, just don't want to resubmit. Will most likely be able to 3d print myself if Construct isn't too delayed. (have 38h already so printer is basically guaranteed)  
+  Also a fully assembled .step with PCB cannot be included since Fusion just doesn't want to export it and crashes whenever I attempt to. A fusion archive has been included for that.  
+  A step file has been generated, but is too large for github upload so click [here](https://cdn.hackclub.com/019c6381-1491-7a9a-b4cf-7e353d8079f8/Assembled.stp) for it
   
 A 100% ISO-105 Mechanical keyboard - custom PCB, custom case.
 It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
