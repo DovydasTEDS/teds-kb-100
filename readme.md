@@ -2,7 +2,7 @@
 
   IMPORTANT (For reviewer)
   Case will be edited / tweaked, just don't want to resubmit. Will most likely be able to 3d print myself if Construct isn't too delayed. (have 38h already so printer is basically guaranteed)
-  Also a fully assembled .step with PCB cannot be included since Fusion just doesn't want to export it and crashes whenever I attempt to.
+  Also a fully assembled .step with PCB cannot be included since Fusion just doesn't want to export it and crashes whenever I attempt to. A fusion archive has been included for that.
   
 A 100% ISO-105 Mechanical keyboard - custom PCB, custom case.
 It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
