@@ -8,6 +8,12 @@
 A 100% ISO-105 Mechanical keyboard - custom PCB, custom case.
 It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
 
+## How to build
+
+  Flash the RP2040 / pi pico devboard with the firmware by holding the boot button and then plugging it into a computer. Then drag the firmware into a drive that appears.  
+  When assembling, make sure you solder all of the components to the PCB, but don't insert the switches. First attach the plate, then add the switches into the hotswap sockets, or solder them if you choose not to include them.  
+  Then screw the plate to the base, and finally, screw the top. All screws / bolts should be M3. The shorter M3 screws attach the plate to the base while the longer screws attach the top to the bottom. The top plate is optional, and it should work without it.  
+
 ![image](img/assembled_cad.png)
 
 ![image](img/schematic.png)
