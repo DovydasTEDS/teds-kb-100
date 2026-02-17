@@ -14,6 +14,11 @@ It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
   When assembling, make sure you solder all of the components to the PCB, but don't insert the switches. First attach the plate, then add the switches into the hotswap sockets, or solder them if you choose not to include them.  
   Then screw the plate to the base, and finally, screw the top. All screws / bolts should be M3. The shorter M3 screws attach the plate to the base while the longer screws attach the top to the bottom. The top plate is optional, and it should work without it.  
 
+## Why did I make this project?  
+
+  Most mechanical gaming keyboards are... mediocre. Firmware that sucks. Software that sucks more. And they all lack one feature or another.  
+  And many mechanical keyboards focus on... 60% and TKL. I haven't seen as much focus on cusom 100% keyboards. This is why I decided to make one! (Also since I'm using a membrane keyboard currently...)
+
 ![image](img/assembled_cad.png)
 
 ![image](img/schematic.png)
@@ -23,6 +28,7 @@ It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
 ![image](img/pcb_3d_front.png)
 
 ![image](img/pcb_3d_back.png)
+
 
 ## Bill of Materials
   
