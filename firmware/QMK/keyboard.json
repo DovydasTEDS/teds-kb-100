@@ -1,6 +1,6 @@
 {
     "manufacturer": "DovydasTEDS",
-    "keyboard_name": "TEDS_KB_100",
+    "keyboard_name": "teds_kb_100",
     "maintainer": "DovydasTEDS",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
