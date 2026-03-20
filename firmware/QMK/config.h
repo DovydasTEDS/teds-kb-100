@@ -19,7 +19,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 #define WS2812_DI_PIN GP28
 
-#define WS2812_LED_COUNT 105
+#define RGB_MATRIX_LED_COUNT 105
 #define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_GRB
 
-#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 127
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 95
+
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
