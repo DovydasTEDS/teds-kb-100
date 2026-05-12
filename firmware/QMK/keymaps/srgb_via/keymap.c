@@ -14,10 +14,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
-#include QMK_KEYBOARD_H
-#if __has_include("keymap.h")
-#    include "keymap.h"
-#endif
+// #include QMK_KEYBOARD_H
+// #if __has_include("keymap.h")
+// #    include "keymap.h"
+// #endif
 
 
 /* THIS FILE WAS GENERATED!
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 
-#ifdef OTHER_KEYMAP_C
-#    include OTHER_KEYMAP_C
-#endif // OTHER_KEYMAP_C
+// #ifdef OTHER_KEYMAP_C
+// #    include OTHER_KEYMAP_C
+// #endif // OTHER_KEYMAP_C
 
