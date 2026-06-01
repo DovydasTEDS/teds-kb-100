@@ -52,3 +52,38 @@ led_config_t g_led_config = { {
   4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 
 } };
 #endif
+
+#ifdef RGB_MATRIX_INDICATOR_ENABLE
+bool rgb_matrix_indicators_kb(void) {
+    if (!rgb_matrix_indicators_user()) {
+        return false;
+    }
+
+    // Get current LED state
+    led_t led_state = host_keyboard_led_state();
+
+    // Yellow color (HSV: 43, 255, 255) - roughly H=60°
+    // For RGB mode, use RGB(255, 255, 0)
+    // uint8_t hue = 43;    // Yellow hue
+    // uint8_t sat = 255;   // Full saturation
+    // uint8_t val = 255;   // Full brightness
+
+    // Caps Lock indicator
+    if (led_state.caps_lock) {
+        rgb_matrix_set_color(CAPSLOCK_INDICATOR_LED_INDEX, HSV_WHITE);
+    }
+
+    // Num Lock indicator
+    if (led_state.num_lock) {
+        rgb_matrix_set_color(NUMLOCK_INDICATOR_LED_INDEX, HSV_WHITE);
+    }
+
+    // Scroll Lock indicator
+    if (led_state.scroll_lock) {
+        rgb_matrix_set_color(SCROLLLOCK_INDICATOR_LED_INDEX, HSV_WHITE);
+    }
+
+    return true;
+}
+#endif
+

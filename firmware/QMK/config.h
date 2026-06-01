@@ -14,6 +14,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
+#pragma once
+
 #define ENCODER_A_PINS { GP26 }
 #define ENCODER_B_PINS { GP27 }
 
@@ -24,4 +26,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 95
 
-#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
+#define RGB_MATRIX_SLEEP
+
+// #define LAYER_INDICATOR_LED_INDEX 0
+
+#define NUMLOCK_INDICATOR_LED_INDEX 19
+#define CAPSLOCK_INDICATOR_LED_INDEX 73
+#define SCROLLLOCK_INDICATOR_LED_INDEX 14
+
+#define RGB_MATRIX_INDICATOR_ENABLE
