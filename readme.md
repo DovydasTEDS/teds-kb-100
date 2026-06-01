@@ -27,7 +27,7 @@ It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
 
 ## Bill of Materials
   
-|Item              |Description                                                                                  |Amount (no MOQ)|Amount (per quantity)|Quantity|Unit Price|Total Price|Running Total|URL                                                                |LCSC Part No|
+|Item              |Description                                                                                  |Quantity (no MOQ)|Amount (per quantity)|Quantity|Unit Price|Total Price|Running Total|URL                                                                |LCSC Part No|
 |------------------|---------------------------------------------------------------------------------------------|---------------|---------------------|--------|----------|-----------|-------------|-------------------------------------------------------------------|------------|
 |PCB               |PCB (Minimum order of 5, includes $13.06 global direct line shipping, and $7.62 tax + duties)|1              |5                    |1       |$45.68    |$45.68     |$45.68       |[JLCPCB](https://jlcpcb.com)                                       |            |
 |                  |                                                                                             |               |                     |        |          |           |             |                                                                   |            |
