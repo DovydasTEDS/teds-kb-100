@@ -245,17 +245,6 @@ _Time spent: 2.0h_
 ![20260411_002622](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0ODIwLCJwdXIiOiJibG9iX2lkIn19--7701db4ce7cae786f6ae847cdfac3daea24ef05f/20260411_002622.png)
 
 You've probably heard of signal rgb, the cool lighting software for all your devices. Well they have a QMK plugin. Was it easy to setup? Not really. Especially with my weird matrix and LED layout. But it worked. Didn't log any of my qmk software earlier, which I probably should've. I'm also not sure if software work (such as this tweaks after making the thing) should be logged now. I did spend more than 2h but only logging 2.
-  
-
-# 4/19/2026 - Submitted for review  
-
-_Time spent: 0.1h_  
-
-Yes I don't have a case... for now...
-Yes I will have a case...
-
-Yes I don't know how it let me submit, but once I have the case a video will be made and assembled photos will be taken. Just need a few more days (either my printer arrives or friend finishes printing).![image](https://blueprint.hackclub.com/user-attachments/image.png)
-  
 
 # 5/22/2026 - Finished the Keyboard  
 
