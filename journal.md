@@ -195,3 +195,77 @@ I added a sort of textured design to the front plate, as well as the TEDS logo. 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTA2NjY0LCJwdXIiOiJibG9iX2lkIn19--e356bd9f6bc338ba9d8011982339cc7ff1b679d9/image.png)
   
 
+# 2/26/2026 - Bought PCB + Components from LCSC  
+
+_Time spent: 0.1h_  
+
+Will purchase the rest of the required items from aliexpress.
+I added a few extra LEDs since if I increased the cost by just under $2, there would be no $3 small order upcharge (saving blueprint the extra dollar). Thought I'd add this just incase someone was wondering.
+
+Image cus image is required for some reason?
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTExNzE2LCJwdXIiOiJibG9iX2lkIn19--728184b981e2de92e36afc3c535924367d8db5b3/image.png)
+  
+
+# 3/22/2026 - Soldered Pico, some sockets + diodes and Level Shifter  
+
+_Time spent: 5.0h_  
+
+![Snapchat-1799737955](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI1NjAyLCJwdXIiOiJibG9iX2lkIn19--cf8e5365c85f252d4a290ec2f585b63b447473a7/Snapchat-1799737955.jpg)
+
+I soldered the RP2040 devboard to the PCB. I then soldered the level shifter. It was very hard as the solder kept bridging. I then started to solder some of the hotswap sockets and diodes, however, I ran out of solder and ordered some more.
+  
+
+# 4/14/2026 6:17 PM - Soldered all of the switch sockets  
+
+_Time spent: 4.5h_  
+
+![20260403_133542](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0ODA0LCJwdXIiOiJibG9iX2lkIn19--cb3c91770bed253aef6385b0bf7092ca72a86be4/20260403_133542.png)
+
+
+Unlike earlier, this didn't take as long as I didn't need to solder the level shifter (hardest part to solder I'd say). I also soldered all of the diodes, which took some time but not too long since I just needed to add solder, place the diode in the position and remelt the solder. Could this have been done a better way? probably.  
+
+# 4/14/2026 6:24 PM - Finished soldering everything  
+
+_Time spent: 7.5h_  
+
+![20260406_154611](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0ODE2LCJwdXIiOiJibG9iX2lkIn19--fbbf04bc16b6eaa71f5fc71dcc1c71e8cf3631a8/20260406_154611.png)
+![20260406_154623](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0ODE3LCJwdXIiOiJibG9iX2lkIn19--58a406fa287c27ef4999d2a560f53e24c0fbf365/20260406_154623.png)
+
+Finally soldered everything. This was kinda annoying since after I soldered all of the LEDs, which took a while, some of them sorta didn't work too well. Then I figured out I just needed more solder in some parts. I also had to desolder 1 led and replace it.. and accidentally messed up the pcb sorta... so I just soldered 2 wires (1 wire to get 5v from where the capacitor would be, and another for the data connection)
+
+What also wasted a bit more time was accidentally shorting 2 of the columns to ground because I thought I could do a better job at fixing the pi pico soldering connections... Eventually I managed to unbridge the connections which were bridged under the pico sorta. Would've been useful to know how to desolder but..
+The issue the bridge caused was ghosting :)
+Whenever I would press some of the numbpad keys, they would trigger some of the nearby keys. Fixed ig.  
+
+# 4/14/2026 6:27 PM - Added signalrgb support  
+
+_Time spent: 2.0h_  
+
+![20260411_002622](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0ODIwLCJwdXIiOiJibG9iX2lkIn19--7701db4ce7cae786f6ae847cdfac3daea24ef05f/20260411_002622.png)
+
+You've probably heard of signal rgb, the cool lighting software for all your devices. Well they have a QMK plugin. Was it easy to setup? Not really. Especially with my weird matrix and LED layout. But it worked. Didn't log any of my qmk software earlier, which I probably should've. I'm also not sure if software work (such as this tweaks after making the thing) should be logged now. I did spend more than 2h but only logging 2.
+  
+
+# 4/19/2026 - Submitted for review  
+
+_Time spent: 0.1h_  
+
+Yes I don't have a case... for now...
+Yes I will have a case...
+
+Yes I don't know how it let me submit, but once I have the case a video will be made and assembled photos will be taken. Just need a few more days (either my printer arrives or friend finishes printing).![image](https://blueprint.hackclub.com/user-attachments/image.png)
+  
+
+# 5/22/2026 - Finished the Keyboard  
+
+_Time spent: 2.0h_  
+
+![20260522_170929](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTYwOTU2LCJwdXIiOiJibG9iX2lkIn19--9a261e2b9aba2f12c1b70159d91c57fdbf525720/20260522_170929.png)
+
+I decided to print the case myself.
+sadly the snap connectors didnt snap too well.. oh well.
+I heatset the heatsets (duh) and then placed plate on top of pcb, and stabilisers and switches and keycaps. Then I screwed the plate to the bottom, then the top to the bottom. I did have to file the top off a bit because it didnt fit too well (probably due to the connector meaning its off a bit, also don't look at it ant an angle because i did have to file quite a bit off, eating into the wall)
+I am currently using this keyboard as my main keyboard (have been for around a week)
+It's pretty cool (i think), and even with funding, I did buy quite a few extra things for it myself.. and tools. tools.  
+
