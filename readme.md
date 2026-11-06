@@ -1,4 +1,6 @@
 # TEDS KB 100  
+
+[Journal](./journal.md)
   
 A 100% ISO-105 Mechanical keyboard - custom PCB, custom case.
 It has per-key rgb leds and a rotary encoder. The firmware is written in QMK.
